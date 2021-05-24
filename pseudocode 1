@@ -1,0 +1,17 @@
+Start
+Display "What is your Name"
+Get Username
+Display "What is your E-mail address"
+Get emailAddress
+Display "Are you male or female?"
+Get Gender
+if(Gender=female) then
+  Display " These are the recommended products for woman"
+  Get femaleproducts
+   if(Gender=male) then
+     Display "These are the recommended products for men"
+      Get maleproducts
+    endif
+endif
+
+  

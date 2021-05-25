@@ -1,13 +1,17 @@
 Start
 Display "Are you male or female?"
-Get Gender
-if(Gender=female) then
-  Display " These are the recommended products for woman"
-  Get femaleproducts
+ Get Gender
+   if(Gender=female) then
+      Display " These are the recommended products for woman"
+       Get femaleproducts
    if(Gender=male) then
-     Display "These are the recommended products for men"
-      Get maleproducts
+      Display "These are the recommended products for men"
+       Get maleproducts
     endif
+endif
+   if(product(n)) then
+     Print product_desc
+     Print product_price
 endif
 
 

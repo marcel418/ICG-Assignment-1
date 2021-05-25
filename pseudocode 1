@@ -2,6 +2,7 @@ Start
 Display "What is your Name"
 Get Username
 Display " Enter password"
+Get password
 Display "What is your E-mail address"
 Get emailAddress
 Display "Are you male or female?"
@@ -14,5 +15,6 @@ if(Gender=female) then
       Get maleproducts
     endif
 endif
+
 
   

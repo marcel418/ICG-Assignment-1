@@ -1,0 +1,7 @@
+-Start
+-Prompt user for account
+-Get user account
+-If user has an account
+
+-Prompt user for account passport
+-Else print signup

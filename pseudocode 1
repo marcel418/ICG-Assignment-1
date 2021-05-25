@@ -1,6 +1,7 @@
 Start
 Display "What is your Name"
 Get Username
+Display " Enter password"
 Display "What is your E-mail address"
 Get emailAddress
 Display "Are you male or female?"

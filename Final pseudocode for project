@@ -14,9 +14,6 @@ endif
      Print product(n)_price
     
 endif
-Print "Would you like to purchase this product"
- Get purchase_order
-   if(purchase_order=Yes) then
      
      
       

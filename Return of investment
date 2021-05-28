@@ -1,0 +1,9 @@
+START
+ current_value=0,cost_investment=0,return_investment=0
+  Prompt current_value
+  Get current_value
+  Prompt cost_investment
+  Get cost_investment
+   return_investment=(curent_value-cost_investment)/cost_investment
+     Print "The return of investment is,"return_investment
+STOP

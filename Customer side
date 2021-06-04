@@ -1,44 +1,49 @@
 Start
-Gender=0,female_products=0,male_products=0,product_id=0,amount_due=0,item_quantity=0,total_cash=0
-Print "Are you male or female?"
- Get Gender
-   if(Gender=female) then
-      Print "These are the recommended products for woman"
-       Get female_products
-       DOWHILE(female_products)
-        prompt product_id
-        Get product_id
-        prompt item_quantity
-        Get item_quantity
-         if(product_id=343235) then
-            amount_due=350*item_quantity
-         else if(product_id=356432) then
-            amount_due=180*item_quantity
-         else if(product_id=332354) then
-            amount_due=450*item_quantity
-         else
+Gender=0,female_products=0,male_products=0,product_id=0,amount_due=0,item_quantity=0,total_cash=0,occupation=0
+Print "Are you the manager or an customer"
+   if(occupation=customer) then
+     Print "Are you male or female?"
+     Get Gender
+       if(Gender=female) then
+         Print "These are the recommended products for woman"
+         Get female_products
+         DOWHILE(female_products)
+          prompt product_id
+          Get product_id
+          prompt item_quantity
+          Get item_quantity
+            if(product_id=343235) then
+               amount_due=350*item_quantity
+            else if(product_id=356432) then
+               amount_due=180*item_quantity
+            else if(product_id=332354) then
+              amount_due=450*item_quantity
+            else
               Print"Error"
-   if(Gender=male) then
-      Print "These are the recommended products for men"
-       Get male_products
-       DOWHILE(male_products)
-        prompt product_id
-        Get product_id
-        prompt item_quantity
-        Get item_quantity
-         if(product_id=34766) then
-            amount_due=300*item_quantity
-         else if(product_id=35698) then
-            amount_due=200*item_quantity
-         else if(product_id=37654) then
-            amount_due=275*item_quantity
-         else
-              Print"Error"
+       if(Gender=male) then
+         Print "These are the recommended products for men"
+         Get male_products
+         DOWHILE(male_products)
+         prompt product_id
+         Get product_id
+         prompt item_quantity
+         Get item_quantity
+           if(product_id=34766) then
+             amount_due=300*item_quantity
+           else if(product_id=35698) then
+             amount_due=200*item_quantity
+           else if(product_id=37654) then
+             amount_due=275*item_quantity
+           else
+               Print"Error"
       endif
     endif
    endif
-total_cash=amount_due+total_cash
-Print"The total amount due is"+total_cash
+     total_cash=amount_due+total_cash
+       Print"The total amount due is"+total_cash
+    else if(occupation=manager) then
+        
+    
 Stop
      
      

@@ -16,8 +16,6 @@ Print "Are you male or female?"
             amount_due=180*item_quantity
          else if(product_id=332354) then
             amount_due=450*item_quantity
-         else if(product_id=345234) then
-            amount_due=250*item_quantity
          else
               Print"Error"
    if(Gender=male) then
@@ -29,13 +27,11 @@ Print "Are you male or female?"
         prompt item_quantity
         Get item_quantity
          if(product_id=34766) then
-            amount_due=350*item_quantity
+            amount_due=300*item_quantity
          else if(product_id=35698) then
-            amount_due=180*item_quantity
+            amount_due=200*item_quantity
          else if(product_id=37654) then
-            amount_due=450*item_quantity
-         else if(product_id=345094) then
-            amount_due=250*item_quantity
+            amount_due=275*item_quantity
          else
               Print"Error"
       endif

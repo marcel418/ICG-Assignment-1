@@ -53,6 +53,12 @@ Print "Are you the manager or an customer"
                 employee_salary=hours_worked*wage_perhour
                   Print "The salary of"+ employee_id +"is" +employee_salary"."
             else if(work=return of value) then
+                    Prompt current_value
+                    Get current_value
+                    Prompt cost_investment
+                    Get cost_investment
+                      return_investment=(curent_value-cost_investment)/cost_investment
+                         Print "The return of investment is,"return_investment
     
 Stop
      

@@ -3,7 +3,7 @@ Gender=0,female_products=0,male_products=0,product_id=0,amount_due=0,item_quanti
 Print "Are you male or female?"
  Get Gender
    if(Gender=female) then
-      Print " These are the recommended products for woman"
+      Print "These are the recommended products for woman"
        Get female_products
        DOWHILE(female_products)
         prompt product_id
@@ -38,10 +38,11 @@ Print "Are you male or female?"
             amount_due=250*item_quantity
          else
               Print"Error"
+      endif
     endif
-endif
-    
-endif
+   endif
+total_cash=amount_due+total_cash
+Print"The total amount due is"+total_cash
 Stop
      
      

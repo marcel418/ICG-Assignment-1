@@ -7,7 +7,6 @@ Print "Are you the manager or a customer"
        if(Gender=female) then
          Print "These are the recommended products for woman"
          Get female_products
-         DOWHILE(female_products)
           prompt product_id
           Get product_id
           prompt item_quantity

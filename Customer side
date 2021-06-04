@@ -41,7 +41,7 @@ Print "Are you the manager or a customer"
    endif
      total_cash=amount_due+total_cash
        Print"The total amount due is"+total_cash
-    else if(occupation=manager) then
+  else if(occupation=manager) then
        Print "Do you want to calculate wage or do you want return of value"
            if(work=wage) then
               Prompt employee_id

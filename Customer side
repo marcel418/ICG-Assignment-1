@@ -1,5 +1,5 @@
 Start
-Gender=0,female_products=0,male_products=0,product_id=0,amount_due=0,item_quantity=0,total_cash=0,occupation=0,hours_worked=0,wage_perhour=0,employee_salary=0,employee_id=0
+Gender=0,female_products=0,male_products=0,product_id=0,amount_due=0,item_quantity=0,total_cash=0,occupation=0,hours_worked=0,wage_perhour=0,employee_salary=0,employee_id=0,current_value=0,cost_investment=0,return_investment=0
 Print "Are you the manager or an customer"
    if(occupation=customer) then
      Print "Are you male or female?"

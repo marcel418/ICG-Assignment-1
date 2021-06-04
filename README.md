@@ -1,3 +1,3 @@
 # ICG-Assignment-1
 We can work here on the Assignment, everyone make sure to do your part.
-Our application is for both the customers and employees, it helps customers browse products and allows them to get more detailed information on the products and helps the company keep track of sales. It also has an enquiry page which helps customers ask question and find out more about the business, it also keeps track of employee data.
+Our application is for both the customers and employees,Its a simple application that allows customers to veiw products and then to select a specific product and calculate the price due,it also gives the manager the ability to calculate employees wage and it can also calculate the ROI of the company which can then be recorded in a database.

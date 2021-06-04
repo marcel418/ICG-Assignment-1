@@ -42,7 +42,17 @@ Print "Are you the manager or an customer"
      total_cash=amount_due+total_cash
        Print"The total amount due is"+total_cash
     else if(occupation=manager) then
-        
+       Print "Do you want to calculate wage or do you want return of value"
+           if(work=wage) then
+              Prompt employee_id
+              Get employee_id
+              Prompt hours_worked
+              Get hours_worked
+              Prompt wage_perhour
+              Get wage_perhour
+                employee_salary=hours_worked*wage_perhour
+                  Print "The salary of"+ employee_id +"is" +employee_salary"."
+            else if(work=return of value) then
     
 Stop
      

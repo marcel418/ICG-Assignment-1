@@ -1,9 +1,12 @@
 Start
-hours_worked=0,wage_perhour=0,Employee_salary=0,Employee_ID=0
- Input Employee_ID
- Input hours_worked
- Input wage_perhour
-  Employee_salary=hours_worked*wage_perhour
- Print "The salary of" Employee_ID "is" Employee_salary"."
+hours_worked=0,wage_perhour=0,employee_salary=0,employee_id=0
+ Prompt employee_id
+ Get employee_id
+ Prompt hours_worked
+ Get hours_worked
+ Prompt wage_perhour
+ Get wage_perhour
+  employee_salary=hours_worked*wage_perhour
+ Print "The salary of"+ employee_id +"is" +employee_salary"."
  
   

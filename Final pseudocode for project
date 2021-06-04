@@ -22,7 +22,6 @@ Print "Are you the manager or a customer"
        if(Gender=male) then
          Print "These are the recommended products for men"
          Get male_products
-         DOWHILE(male_products)
          prompt product_id
          Get product_id
          prompt item_quantity
@@ -51,13 +50,17 @@ Print "Are you the manager or a customer"
               Get wage_perhour
                 employee_salary=hours_worked*wage_perhour
                   Print "The salary of"+ employee_id +"is" +employee_salary"."
-            else if(work=return of value) then
+            else if(work=return) then
                     Prompt current_value
                     Get current_value
                     Prompt cost_investment
                     Get cost_investment
                       return_investment=(curent_value-cost_investment)/cost_investment
                          Print "The return of investment is,"return_investment
+           else
+               print "Error"
+  endif
+ endif
     
 Stop
      
